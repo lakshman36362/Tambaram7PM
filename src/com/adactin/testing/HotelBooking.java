@@ -11,6 +11,7 @@ public class HotelBooking {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
+		System.out.println("Added in Lakshman Git");
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Owner\\Desktop\\Software\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.adactin.com/HotelApp/index.php");
